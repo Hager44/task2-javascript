@@ -7,7 +7,7 @@ var triangleArea=(side1,side2,side3)=>{
 }
 
 var input = prompt("Enter the three sides of the triangle:");
-var inputArray = input.split(" ");
+var inputArray = input.split(",");
 if (inputArray.length ===3) {
   var num1 = parseFloat(inputArray[0]);
   var num2 = parseFloat(inputArray[1]);
