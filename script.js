@@ -16,8 +16,8 @@ if (inputArray.length ===3) {
         let areaTriangle=triangleArea(num1,num2,num3);
        alert(`the area of the triangle is: ${areaTriangle}m²`);
   } else {
-    alert("Invalid input. Please enter three valid float numbers.");
+    alert(`Invalid input. Please enter three valid float numbers.`);
   }
 } else {
-  alert("Invalid input. Please enter exactly three float numbers separated by spaces.");
+  alert(`Invalid input. Please enter exactly three float numbers separated by spaces.`);
 }
