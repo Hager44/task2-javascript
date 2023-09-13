@@ -14,7 +14,6 @@ if (inputArray.length ===3) {
   var num3 = parseFloat(inputArray[2]);
   if (!isNaN(num1) && !isNaN(num2) && !isNaN(num3)) {
         let areaTriangle=triangleArea(num1,num2,num3);
-         console.log(areaTriangle +"m²");
        alert(`the area of the triangle is: ${areaTriangle}m²`);
   } else {
     console.log("Invalid input. Please enter three valid float numbers.");
